@@ -7,6 +7,7 @@
     <modules>
         <module>firstdemo</module>
         <module>customPort</module>
+        <module>properties</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
@@ -15,6 +16,6 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.2.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath />
     </parent>
 </project>
