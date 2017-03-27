@@ -8,9 +8,11 @@
         <module>firstdemo</module>
         <module>customPort</module>
         <module>properties</module>
-        <module>indexPage</module>
         <module>exception</module>
         <module>jdbcMysql</module>
+        <module>indexPage</module>
+        <module>thymeleafDemo</module>
+        <module>swagger</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
