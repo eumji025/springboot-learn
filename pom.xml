@@ -8,6 +8,8 @@
         <module>firstdemo</module>
         <module>customPort</module>
         <module>properties</module>
+        <module>indexPage</module>
+        <module>exception</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
