@@ -10,10 +10,11 @@
         <module>properties</module>
         <module>indexPage</module>
         <module>exception</module>
+        <module>jdbcMysql</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
