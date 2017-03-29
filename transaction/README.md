@@ -23,3 +23,22 @@ update
 validate
 >每次加载hibernate时，验证创建数据库表结构，只会和数据库中的表进行比较，不会创建新表，但是会插入新值。
 
+
+
+## CrudRepository和JpaRepository对比
+
+### JpaRepository接口
+~~~java
+//实现了分页和排序接口
+public interface JpaRepository<T, ID extends Serializable>
+		extends PagingAndSortingRepository<T, ID>, QueryByExampleExecutor<T>
+~~~
+
+### CrudRepository接口
+
+~~~java
+//仅继承了核心Repository
+public interface CrudRepository<T, ID extends Serializable> extends Repository<T, ID> {
+~~~
+
+从上面两个接口实现的接口来看,jpa则实现了更为丰富的功能,可以进行分页排序的等操作,而crud则没有此功能.
