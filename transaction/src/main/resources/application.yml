@@ -10,4 +10,4 @@ spring:
   # DDL mode. This is actually a shortcut for the "hibernate.hbm2ddl.auto" property. Default to "create-drop" when using an embedded database, "none" otherwise.
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
