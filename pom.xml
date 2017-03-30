@@ -18,8 +18,9 @@
         <module>log4j2</module>
         <module>transaction</module>
         <module>scheduled</module>
-        <module>aynscScheduled</module>
+        <module>asyncScheduled</module>
         <module>aspect</module>
+        <module>security</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
