@@ -1,7 +1,5 @@
 package com.eumji.aspect.controller;
 
-import com.sun.org.apache.regexp.internal.RE;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
