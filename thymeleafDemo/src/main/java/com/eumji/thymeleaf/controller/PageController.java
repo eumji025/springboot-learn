@@ -17,12 +17,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PageController {
     @RequestMapping("/page")
-    public String page(Model model){
+    public String page3(Model model){
         model.addAttribute("userName","张三");
         return "hello";
     }
-    @RequestMapping("/page2")
+    @RequestMapping("info/more")
     public String page2(){
         return "hello2";
+    }
+
+    @RequestMapping("sys/index")
+    public String page(){
+        return "sys/index";
     }
 }

@@ -12,6 +12,11 @@
     <groupId>com.eumji.springboot.thymeleaf</groupId>
     <artifactId>thymeleafDemo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <!--使用thymeleaf 3   -->
+    <properties>
+        <thymeleaf.version> 3.0.2.RELEASE </thymeleaf.version>
+        <thymeleaf-layout-dialect.version> 2.1.1 </thymeleaf-layout-dialect.version>
+    </properties>
 <dependencies>
 
     <dependency>
