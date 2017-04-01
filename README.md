@@ -6,7 +6,7 @@
 自定义springboot端口号
 ## indexPage
 跳转到静态页面的demo
-##　thymeleaf
+## thymeleaf
 thymeleaf模板使用demo
 ## exception
 异常处理的demo
@@ -16,5 +16,8 @@ thymeleaf模板使用demo
 使用aop来记录日志
 ## asyncScheduled
 使用异步方式进行调度
+## log4j2
+使用log4j2进行日志记录
+
 
 
