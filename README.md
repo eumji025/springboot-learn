@@ -12,5 +12,8 @@ thymeleaf模板使用demo
 异常处理的demo
 ## jdbcMysql
 通过jdbc操作数据库
+## aspect
+使用aop来记录日志
+
 
 
