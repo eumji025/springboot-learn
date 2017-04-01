@@ -18,6 +18,8 @@ thymeleaf模板使用demo
 使用异步方式进行调度
 ## log4j2
 使用log4j2进行日志记录
+## properties
+使用配置文件设置一些常量,如jdbc连接信息等
 
 
 
