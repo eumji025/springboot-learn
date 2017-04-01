@@ -14,6 +14,7 @@ thymeleaf模板使用demo
 通过jdbc操作数据库
 ## aspect
 使用aop来记录日志
-
+## asyncScheduled
+使用异步方式进行调度
 
 
