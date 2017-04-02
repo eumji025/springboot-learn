@@ -4,9 +4,11 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
 mybatis:
   type-aliases-package: com.eumji.mybatisxml.vo
-
-  mapper-locations: classpath:mapper/*Mapper.xml
-
-
+  mapper-locations: classpath:com/eumji/mybatisxml/mapper/*Mapper.xml
+  config-location: classpath:mybatis-conf.xml
+logging:
+  config: classpath:log4j2.xml
+  level: info
