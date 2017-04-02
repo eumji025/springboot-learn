@@ -15,10 +15,10 @@ import java.util.List;
  */
 @Mapper
 public interface UserInfoMapper {
-
+    /*添加一条数据*/
     void insertUser(@Param("userName") String userName, @Param("sex") String sex);
-
+    /*查询所有*/
     List<UserInfo> selectAllUser();
-
+    /*更新一条*/
     void updateUser(UserInfo userInfo);
 }

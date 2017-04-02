@@ -10,29 +10,9 @@
             <PatternLayout pattern="${PATTERN}" />
         </Console>
     </appenders>
-
+    <!--配置mybatis日志-->
     <loggers>
-        <logger name="log4j.logger.noModule" level="fatal" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.org.mybatis.jpetstore" level="trace" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.com.opensymphony.xwork2" level="debug" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.com.ibatis" level="trace" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.com.ibatis.common.jdbc.SimpleDataSource" level="debug" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.com.ibatis.common.jdbc.ScriptRunner" level="debug" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
-        <logger name="log4j.logger.com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate" level="debug" additivity="false">
-            <appender-ref ref="Console"/>
-        </logger>
+
         <logger name="log4j.logger.org.mybatis" level="debug" additivity="false">
             <appender-ref ref="Console"/>
         </logger>

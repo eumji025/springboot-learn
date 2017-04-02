@@ -15,7 +15,7 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-    
+    <!--设置mybatis日志类型-->
     <settings>
         <setting name="logImpl" value="LOG4J2"/>
     </settings>
