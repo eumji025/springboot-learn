@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @day: 26
  * @time: 2017/3/26
  */
-@RestController
+@RestController // same as @Configuration @EnableAutoConfiguration @ComponentScan
 public class IndexController implements ApplicationListener<EmbeddedServletContainerInitializedEvent> {
     private int port;
 
