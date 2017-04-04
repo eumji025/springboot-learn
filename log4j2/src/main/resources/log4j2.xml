@@ -12,7 +12,8 @@
     </appenders>
 
     <loggers>
-        <logger name="com.eumji.log4j2" level="debug" />
+
+        <logger name="com.eumji.log4j2" level="info" />
         <root level="info">
             <appenderref ref="CONSOLE" />
         </root>
