@@ -34,7 +34,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder().title("使用swagger2构建RESTful API")
                 .description("更多内容请参见swagger官网:http://swagger.io/")
                 .termsOfServiceUrl("http://swagger.io/")
-                .version("1.0").contact("what you name").build();
+                .version("1.0").contact("eumji").build();
     }
 
 
