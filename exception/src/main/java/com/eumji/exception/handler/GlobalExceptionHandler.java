@@ -45,7 +45,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(value = CustomException.class)
     @ResponseBody
     public ResultMessage<String> jsonErrorHandler(HttpServletRequest request, CustomException e) throws Exception{
-        ResultMessage<String> message = new ResultMessage<>();
+        ResultMessage<String> message = new ResultMessage<String>();
         message.setUrl(request.getRequestURL().toString());
         message.setMessage(e.toString());
         message.setData("no data");
