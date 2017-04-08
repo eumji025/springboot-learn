@@ -6,6 +6,7 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
+import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
@@ -34,7 +35,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder().title("使用swagger2构建RESTful API")
                 .description("更多内容请参见swagger官网:http://swagger.io/")
                 .termsOfServiceUrl("http://swagger.io/")
-                .version("1.0").contact("eumji").build();
+                .version("1.0").contact(new Contact("eumji","http://jsu.eumji025.top","eumji025@gmail.com")).build();
     }
 
 
