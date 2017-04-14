@@ -1,0 +1,15 @@
+
+logging:
+  config: classpath:log4j2.xml
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/jdbc
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+
