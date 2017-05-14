@@ -6,3 +6,10 @@
 从而设置端口号
 2. 然后需要实现EmbeddedServletContainerInitializedEvent接口
 获取端口号
+
+### 在配置文件中设置端口
+application.yml
+
+```yml
+server:
+  port: 8080
