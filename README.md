@@ -41,7 +41,9 @@ thymeleaf模板使用demo
 ## swagger
 使用swagger作为RESTful api
 ## security
-使用spring cloud作为安全框架
+使用spring security作为安全框架
+## ssl 
+使用ssl方式做网站升级
 
 
 

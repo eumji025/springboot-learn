@@ -22,6 +22,7 @@
         <module>aspect</module>
         <module>security</module>
         <module>ehcache</module>
+        <module>ssl-server</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
