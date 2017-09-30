@@ -1,6 +1,6 @@
-package com.eumji.transation.dao;
+package mapper.eumji.transation.dao;
 
-import com.eumji.transation.vo.UserInfo;
+import mapper.eumji.transation.vo.UserInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

@@ -1,4 +1,4 @@
-package com.eumji.transation;
+package mapper.eumji.transation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

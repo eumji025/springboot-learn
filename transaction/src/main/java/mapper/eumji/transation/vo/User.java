@@ -1,4 +1,4 @@
-package com.eumji.transation.vo;
+package mapper.eumji.transation.vo;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
