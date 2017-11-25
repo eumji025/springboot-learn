@@ -20,14 +20,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/","/home").permitAll()
-                .anyRequest().authenticated()
+        http.authorizeRequests().antMatchers("/","/home").permitAll() //url放行
+                .anyRequest().authenticated() //其他的都需要权限
                 .and().formLogin().loginPage("/login").permitAll()
                 .and().logout().permitAll();
     }
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
-        auth.inMemoryAuthentication().withUser("user").password("password").roles("USERS");
+        auth.inMemoryAuthentication().withUser("user").password("password").roles("USERS"); //使用内存用户验证
     }
 }
