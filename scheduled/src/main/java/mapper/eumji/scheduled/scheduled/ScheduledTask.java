@@ -1,11 +1,11 @@
-package com.eumji.scheduled.scheduled;
+package mapper.eumji.scheduled.scheduled;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Do
- * @package com.eumji.scheduled.scheduled
+ * @author eumji
+ * @package com.eumji.task.task
  * @name ScheduledTask
  * @date 2017/3/28
  * @time 14:25
