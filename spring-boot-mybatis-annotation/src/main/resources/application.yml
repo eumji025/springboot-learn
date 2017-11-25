@@ -1,0 +1,10 @@
+#mybatis:
+#  type-aliases-package: eumji.eumji.mybatisMysql.eumji
+#  type-handlers-package: eumji.eumji.mybatisMysql.eumji
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jdbc
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver

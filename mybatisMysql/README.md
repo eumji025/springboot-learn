@@ -1,2 +1,0 @@
-#mybatisMysql
-是使用mubatis操作mysql的demo

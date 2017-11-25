@@ -19,7 +19,4 @@
     <typeAliases>
         <package name="com.eumji.mybatisMysql.vo"/>
     </typeAliases>
-    <mappers>
-        <mapper resource="com/eumji/mybatisMysql/mapper/userMapper.xml"/>
-    </mappers>
 </configuration>

@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @author Do
- * @package mapper
+ * @package eumji
  * @name userMapper.xml
  * @date 2017/3/27
  * @time 19:26
@@ -18,8 +18,8 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
 
-    @Insert("insert into user values(#{userName},#{age})")
-    void insertUser(@Param("userName") String userName, @Param("age") int age);
+    @Insert("insert into user(username,age) values(#{userName},#{age})")
+    int insertUser(@Param("userName") String userName, @Param("age") int age);
 
     @Select("select * from user")
     List<User> selectAllUser();

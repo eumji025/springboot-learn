@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Do
- * @package com.eumji.mybatisMysql
+ * @package eumji.eumji.mybatisMysql
  * @name ApplicationInit
  * @date 2017/3/27
  * @time 19:25
