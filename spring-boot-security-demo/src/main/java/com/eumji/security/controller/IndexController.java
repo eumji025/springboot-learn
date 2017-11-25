@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author Do
- * @package com.eumji.security.controller
+ * @package eumji.eumji.security.controller
  * @name IndexController
  * @date 2017/3/30
  * @time 13:16

@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * com.eumji.aspect.controller.IndexController.java
+ * eumji.eumji.aspect.controller.IndexController.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi

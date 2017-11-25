@@ -3,7 +3,7 @@ package com.eumji.aspect.vo;
 import javax.persistence.*;
 
 /**
- * com.eumji.aspect.vo.LogIInfo.java
+ * eumji.eumji.aspect.vo.LogIInfo.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi

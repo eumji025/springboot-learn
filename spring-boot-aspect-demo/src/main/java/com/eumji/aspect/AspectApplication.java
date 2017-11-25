@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * com.eumji.aspect.Application.java
+ * eumji.eumji.aspect.Application.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi

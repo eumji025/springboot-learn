@@ -6,7 +6,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 
 /**
  * @author Do
- * @package com.eumji.task
+ * @package eumji.eumji.task
  * @name Application
  * @date 2017/3/29
  * @time 13:16

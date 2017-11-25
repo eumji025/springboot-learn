@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * @author Do
- * @package com.eumji.security
+ * @package eumji.eumji.security
  * @name Application
  * @date 2017/3/30
  * @time 13:05

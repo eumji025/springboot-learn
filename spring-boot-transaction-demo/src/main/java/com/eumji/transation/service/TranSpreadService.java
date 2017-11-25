@@ -1,0 +1,15 @@
+package com.eumji.transation.service;
+
+import com.eumji.transation.vo.UserInfo;
+
+import java.util.List;
+
+/**
+ * @email eumji025@gmail.eumji
+ * @author:EumJi
+ * @date: 2017/9/30
+ * @time: 14:11
+ */
+public interface TranSpreadService {
+    public void saveSpread(List<UserInfo> userInfos);
+}

@@ -4,7 +4,7 @@ import com.eumji.aspect.vo.LogInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * com.eumji.aspect.repository.LogRepository.java
+ * eumji.eumji.aspect.repository.LogRepository.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi

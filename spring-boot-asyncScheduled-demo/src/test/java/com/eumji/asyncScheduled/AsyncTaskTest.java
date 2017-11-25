@@ -12,7 +12,7 @@ import java.util.concurrent.Future;
 
 /**
  * @author EumJi
- * @package com.eumji.task
+ * @package eumji.eumji.task
  * @name AsyncTaskTest
  * @date 2017/3/29
  * @time 13:28

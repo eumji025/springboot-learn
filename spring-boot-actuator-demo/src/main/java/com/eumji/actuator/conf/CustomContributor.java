@@ -5,7 +5,7 @@ import org.springframework.boot.actuate.info.InfoContributor;
 import org.springframework.stereotype.Component;
 
 /**
- * @email eumji025@gmail.com
+ * @email eumji025@gmail.eumji
  * @author:EumJi
  * @date: 2017/11/25
  * @time: 19:09

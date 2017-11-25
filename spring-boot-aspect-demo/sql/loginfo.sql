@@ -33,6 +33,6 @@ CREATE TABLE `loginfo` (
 -- ----------------------------
 -- Records of loginfo
 -- ----------------------------
-INSERT INTO `loginfo` VALUES ('1', '[]', 'com.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@69c5d991', null, 'GET', 'http://localhost:8080/');
-INSERT INTO `loginfo` VALUES ('2', '[]', 'com.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@3708f4d2', null, 'GET', 'http://localhost:8080/');
-INSERT INTO `loginfo` VALUES ('3', '[]', 'com.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@36a84315', null, 'GET', 'http://localhost:8080/');
+INSERT INTO `loginfo` VALUES ('1', '[]', 'eumji.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@69c5d991', null, 'GET', 'http://localhost:8080/');
+INSERT INTO `loginfo` VALUES ('2', '[]', 'eumji.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@3708f4d2', null, 'GET', 'http://localhost:8080/');
+INSERT INTO `loginfo` VALUES ('3', '[]', 'eumji.eumji.aspect.controller.IndexController.hello', 'org.apache.tomcat.util.http.NamesEnumerator@36a84315', null, 'GET', 'http://localhost:8080/');

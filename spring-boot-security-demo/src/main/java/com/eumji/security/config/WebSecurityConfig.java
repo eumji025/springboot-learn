@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 
 /**
  * @author Do
- * @package com.eumji.security.config
+ * @package eumji.eumji.security.config
  * @name WebSecurityConfig
  * @date 2017/3/30
  * @time 13:10

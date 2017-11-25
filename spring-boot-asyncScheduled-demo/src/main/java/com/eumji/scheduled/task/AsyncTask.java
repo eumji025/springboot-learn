@@ -11,7 +11,7 @@ import java.util.concurrent.Future;
  *
  *  异步调度类
  * @author EumJi
- * @package com.eumji.task.task
+ * @package eumji.eumji.task.task
  * @name AsyncTask
  * @date 2017/3/29
  * @time 13:17

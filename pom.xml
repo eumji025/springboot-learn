@@ -5,24 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>firstdemo</module>
-        <module>customPort</module>
-        <module>properties</module>
-        <module>exception</module>
-        <module>jdbcMysql</module>
-        <module>mybatisMysql</module>
-        <module>indexPage</module>
-        <module>thymeleafDemo</module>
-        <module>swagger</module>
-        <module>mybatisxml</module>
-        <module>log4j2</module>
-        <module>transaction</module>
-        <module>scheduled</module>
-        <module>asyncScheduled</module>
-        <module>aspect</module>
-        <module>security</module>
-        <module>ehcache</module>
-        <module>ssl-server</module>
+        <module>spring-boot-first-demo</module>
+        <module>spring-boot-custom-port</module>
+        <module>spring-boot-properties-demo</module>
+        <module>spring-boot-exception-demo</module>
+        <module>spring-boot-jdbc-demo</module>
+        <module>spring-boot-mybatis-annotation</module>
+        <module>spring-boot-indexPage-demo</module>
+        <module>spring-boot-thymeleaf-demo</module>
+        <module>spring-boot-swagger-demo</module>
+        <module>spring-boot-mybatis-xml</module>
+        <module>spring-boot-log4j2-demo</module>
+        <module>spring-boot-transaction-demo</module>
+        <module>spring-boot-scheduled-demo</module>
+        <module>spring-boot-asyncScheduled-demo</module>
+        <module>spring-boot-aspect-demo</module>
+        <module>spring-boot-security-demo</module>
+        <module>spring-boot-ehcache-demo</module>
+        <module>spring-boot-ssl-server</module>
+        <module>spring-boot-actuator-demo</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>parent</artifactId>
@@ -33,6 +34,10 @@
         <version>1.5.2.RELEASE</version>
         <relativePath />
     </parent>
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
     
 </project>

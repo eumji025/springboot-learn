@@ -20,28 +20,41 @@
 
 ## indexPage
 跳转到静态页面的demo
+
 ## thymeleaf
 thymeleaf模板使用demo
+详情介绍 http://blog.csdn.net/jsu_9207/article/details/68945787
+
 ## exception
 异常处理的demo
+
 ## jdbcMysql
 通过jdbc操作数据库
+
 ## aspect
 使用aop来记录日志
+
 ## asyncScheduled
 使用异步方式进行调度
+
 ## log4j2
 使用log4j2进行日志记录
+
 ## properties
 使用配置文件设置一些常量,如jdbc连接信息等
+
 ## mybatisxml
 使用xml配置方式开发一个mybatis持久层操作
+
 ## mybatismysql
 使用mybatis的注解方式开发一个web项目
+
 ## swagger
 使用swagger作为RESTful api
+
 ## security
 使用spring security作为安全框架
+
 ## ssl 
 使用ssl方式做网站升级
 
