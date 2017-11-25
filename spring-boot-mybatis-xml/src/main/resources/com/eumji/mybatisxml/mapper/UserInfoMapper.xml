@@ -5,7 +5,7 @@
 <mapper namespace="com.eumji.mybatisxml.mapper.UserInfoMapper">
     
     
-    <select id="selectAllUser" resultType="user">
+    <select id="selectAllUser" resultType="com.eumji.mybatisxml.vo.UserInfo">
         SELECT * from user2
     </select>
 

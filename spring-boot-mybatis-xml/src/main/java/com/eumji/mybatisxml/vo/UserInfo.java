@@ -3,7 +3,7 @@ package com.eumji.mybatisxml.vo;
 import org.apache.ibatis.type.Alias;
 
 /**
- * com.eumji.mybatisxml.vo.UserInfo.java
+ * eumji.eumji.mybatisxml.vo.UserInfo.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi
@@ -12,7 +12,7 @@ import org.apache.ibatis.type.Alias;
  * @day: 02
  * @time: 2017/4/2
  */
-@Alias("user")
+@Alias("userInfos")
 public class UserInfo {
     private Integer id;
     private String name;

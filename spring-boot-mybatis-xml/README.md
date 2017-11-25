@@ -33,3 +33,5 @@ mybatis:
 3.在实体类添加别名注解@alisa("table-name")
 
 4.在mapper添加@mapper注解
+
+测试方法在test包下 可以写个controller

@@ -7,8 +7,8 @@ import org.apache.ibatis.annotations.Param;
 import java.util.List;
 
 /**
- * @author Do
- * @package mapper
+ * @author eumji
+ * @package eumji
  * @name userMapper.xml
  * @date 2017/3/27
  * @time 19:26

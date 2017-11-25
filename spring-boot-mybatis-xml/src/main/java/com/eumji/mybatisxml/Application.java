@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * com.eumji.mybatisxml.Application.java
+ * eumji.eumji.mybatisxml.Application.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi

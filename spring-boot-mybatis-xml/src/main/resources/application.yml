@@ -5,9 +5,11 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+
+
 #mynatis配置
 mybatis:
-  type-aliases-package: com.eumji.mybatisxml.vo
+  type-aliases-package: eumji.eumji.mybatisxml.vo
   #mapper加载路径
   mapper-locations: classpath:com/eumji/mybatisxml/mapper/*Mapper.xml
   #myatbis配置文件
@@ -15,4 +17,5 @@ mybatis:
 #加载log4j2
 logging:
   config: classpath:log4j2.xml
-  level: info
+  level: debug
+  file:
