@@ -3,17 +3,25 @@
 
 # 简要说明
 此专栏中所有的demo都依赖parent里面的pom.xml
-如果您不希望下载所有的demo,你可以将子模块依赖父模块的pom删掉,并在子模块中添加父模块部分的依赖即可
+如果您不希望下载所有的demo,你可以将子模块依赖父模块的pom删掉,
+并在子模块中添加spring boot 的parent即可
+由于比较简单没有写过多的说明,有问题可以留言或联系我
+
+联系方式
+
+>email: eumji025@gmail.com
+
 
 # 个人博客
 在这里介绍一个个人博客 www.eumji025.com
 此博客是个人的作品,主要是学习spring boot和thymeleaf模板后的作品,代码也托管在github上[zblog源码](https://github.com/eumji025/zblog)
-在完成本博客的时候,个人正在实习,没有那么多的时间去处理的非常完美,如果您有什么意见和建议欢迎在issue中提出,或发送邮件到eumji025@gmail.com
+在完成本博客的时候,如果您有什么意见和建议欢迎在issue中提出,或发送邮件到eumji025@gmail.com
 如果您觉得还不错的话,欢迎fork和star.
 
 
 ## firstdemo
 第一个入门小程序 -> helloWorld
+
 ## customPort
 自定义springboot端口号
 具体也可以参照个人博客 http://blog.csdn.net/jsu_9207/article/details/66472096
@@ -56,7 +64,10 @@ thymeleaf模板使用demo
 使用spring security作为安全框架
 
 ## ssl 
-使用ssl方式做网站升级
+使用ssl方式做网站https
+
+## actuator
+使用actuator做监控
 
 
 
