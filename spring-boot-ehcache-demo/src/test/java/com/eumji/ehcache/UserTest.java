@@ -1,6 +1,6 @@
 package com.eumji.ehcache;
 
-import com.eumji.ehcache.dao.UserRepository;
+import com.eumji.ehcache.repository.UserRepository;
 import com.eumji.ehcache.vo.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -16,7 +16,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @time 21:25
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = EhcacheApplication.class)
 public class UserTest {
     @Autowired
     private UserRepository userRepository;

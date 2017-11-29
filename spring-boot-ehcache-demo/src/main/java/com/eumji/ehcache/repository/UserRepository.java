@@ -1,14 +1,13 @@
-package com.eumji.ehcache.dao;
+package com.eumji.ehcache.repository;
 
 import com.eumji.ehcache.vo.User;
-import org.hibernate.annotations.Cache;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.repository.CrudRepository;
 
 /**
- * @author Do
- * @package eumji.eumji.ehcache.dao
+ * @author EumJi
+ * @package com.eumji.ehcache.repository
  * @name UserRepository
  * @date 2017/3/30
  * @time 21:22

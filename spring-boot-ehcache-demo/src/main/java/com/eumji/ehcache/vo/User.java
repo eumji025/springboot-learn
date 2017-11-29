@@ -3,8 +3,8 @@ package com.eumji.ehcache.vo;
 import javax.persistence.*;
 
 /**
- * @author Do
- * @package eumji.eumji.ehcache.vo
+ * @author EumJi
+ * @package com.eumji.ehcache.vo
  * @name User
  * @date 2017/3/30
  * @time 21:18
