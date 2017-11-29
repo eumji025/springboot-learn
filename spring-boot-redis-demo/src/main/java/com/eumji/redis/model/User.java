@@ -1,5 +1,7 @@
 package com.eumji.redis.model;
 
+import com.eumji.redis.BaseEntity;
+
 import java.io.Serializable;
 
 /**
@@ -8,21 +10,11 @@ import java.io.Serializable;
  * @date: 2017/11/29
  * @time: 11:26
  */
-public class User implements Serializable {
-
-    private String id;
+public class User extends BaseEntity {
 
     private String name;
 
     private int age;
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;

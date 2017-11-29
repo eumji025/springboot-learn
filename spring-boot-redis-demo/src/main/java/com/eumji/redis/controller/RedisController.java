@@ -1,13 +1,14 @@
 package com.eumji.redis.controller;
 
 import com.eumji.redis.model.User;
+import com.eumji.redis.util.RedisUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.HashOperations;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.UUID;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -22,6 +23,10 @@ public class RedisController {
     @Autowired
     private RedisTemplate redisTemplate;
 
+
+    @Autowired
+    private RedisUtils  redisUtils;
+
     private final String REDIS_KEY = "redis";
 
     /**
@@ -34,6 +39,8 @@ public class RedisController {
         ValueOperations<String, User> operations = redisTemplate.opsForValue();
         user.setId(UUID.randomUUID().toString());
         operations.set(user.getId(),user);
+        //设置过期时间
+        redisTemplate.expire(user.getId(),50, TimeUnit.SECONDS);
         return user.getId();
     }
 
@@ -48,4 +55,13 @@ public class RedisController {
         User user = operations.get(id);
         return user;
     }
+
+
+    @PostMapping("/users/user2")
+    public String addUserByUtil(@RequestBody User user){
+        return redisUtils.putValue(user,50L,TimeUnit.SECONDS);
+    }
+
+
+
 }
