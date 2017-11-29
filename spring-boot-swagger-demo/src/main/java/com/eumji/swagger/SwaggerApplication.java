@@ -1,24 +1,21 @@
-package com.eumji.mybatisxml;
+package com.eumji.swagger;
 
-import jdk.nashorn.internal.runtime.logging.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * eumji.eumji.mybatisxml.Application.java
+ * eumji.eumji.swagger.Application.java
  *
  * @desc 不积跬步无以至千里, 不积小流无以至千里
  * @author:EumJi
  * @year: 2017
- * @month: 04
- * @day: 02
- * @time: 2017/4/2
+ * @month: 03
+ * @day: 31
+ * @time: 2017/3/31
  */
 @SpringBootApplication
-@Logger
-public class Application {
-
+public class SwaggerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(SwaggerApplication.class,args);
     }
 }

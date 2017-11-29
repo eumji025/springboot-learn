@@ -1,6 +1,5 @@
 package com.eumji.mybatisxml;
 
-import com.eumji.mybatisxml.Application;
 import com.eumji.mybatisxml.mapper.UserInfoMapper;
 import com.eumji.mybatisxml.vo.UserInfo;
 import org.junit.Test;
@@ -19,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @time 21:23
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest(classes = MybatisXmlApplication.class)
 public class ApplicationTest {
     @Autowired
     private UserInfoMapper userInfoMapper;

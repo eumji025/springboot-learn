@@ -1,13 +1,11 @@
 package com.eumji.mybatisMysql;
 
-import com.eumji.mybatisMysql.ApplicationInit;
 import com.eumji.mybatisMysql.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.transaction.annotation.Transactional;
 
 
 /**
@@ -19,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @time 21:23
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringBootTest(classes = ApplicationInit.class)
+@SpringBootTest(classes = MybatisAnnnotationApplication.class)
 public class ApplicationTest {
     @Autowired
     private UserMapper userMapper;

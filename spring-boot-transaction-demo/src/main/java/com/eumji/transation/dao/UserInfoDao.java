@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 /**
  * @author Do
- * @package eumji.eumji.transation.dao
+ * @package eumji.eumji.transation.repository
  * @name UserDao
  * @date 2017/3/28
  * @time 13:35

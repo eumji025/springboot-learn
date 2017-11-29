@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @time 11:02
  */
 @SpringBootApplication
-public class Application {
+public class LoggerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(LoggerApplication.class,args);
     }
 }

@@ -23,21 +23,17 @@ public class AsyncTask {
     public Future<String> taskOne() throws InterruptedException {
         long begin = System.currentTimeMillis();
         System.out.println("任务一调度开始!");
-        System.out.println("开始时间:"+begin);
         Thread.sleep(random.nextInt(5000));
-        System.out.println("任务一调度结束");
-        System.out.println("任务一调度耗时:"+(System.currentTimeMillis()-begin));
-        return new AsyncResult<String>("任务二完成");
+        System.out.println("任务一调度结束耗时:"+(System.currentTimeMillis()-begin)+"ms");
+        return new AsyncResult<String>("任务一完成");
     }
 
     @Async
     public Future<String> taskTwo() throws InterruptedException {
         long begin = System.currentTimeMillis();
         System.out.println("任务二调度开始!");
-        System.out.println("开始时间:"+begin);
         Thread.sleep(random.nextInt(5000));
-        System.out.println("任务二调度结束");
-        System.out.println("任务二调度耗时:"+(System.currentTimeMillis()-begin));
+        System.out.println("任务二调度结束耗时:"+(System.currentTimeMillis()-begin)+"ms");
         return new AsyncResult<String>("任务二完成");
     }
 
@@ -45,11 +41,9 @@ public class AsyncTask {
     public Future<String> taskThree() throws InterruptedException {
         long begin = System.currentTimeMillis();
         System.out.println("任务三调度开始!");
-        System.out.println("开始时间:"+begin);
         Thread.sleep(random.nextInt(2000));
-        System.out.println("任务三调度结束");
-        System.out.println("任务三调度耗时:"+(System.currentTimeMillis()-begin));
-        return new AsyncResult<String>("任务二完成");
+        System.out.println("任务三调度结束耗时:"+(System.currentTimeMillis()-begin));
+        return new AsyncResult<String>("任务三完成");
     }
 
 }

@@ -14,8 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @time: 2017/3/26
  */
 @SpringBootApplication
-public class ApplicationInit {
+public class CustomPortApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ApplicationInit.class,args);
+        SpringApplication.run(CustomPortApplication.class,args);
     }
 }
