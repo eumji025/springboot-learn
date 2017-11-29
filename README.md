@@ -64,10 +64,13 @@ thymeleaf模板使用demo
 使用spring security作为安全框架
 
 ## ssl 
-使用ssl方式做网站https
+使用ssl方式升级网站到https
 
 ## actuator
 使用actuator做监控
 
+
+##spring-boot-redis-demo
+使用redis缓存应用程序
 
 

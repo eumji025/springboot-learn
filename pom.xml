@@ -32,6 +32,7 @@
         <module>spring-boot-ehcache-demo</module>
         <module>spring-boot-ssl-server</module>
         <module>spring-boot-actuator-demo</module>
+        <module>spring-boot-redis-demo</module>
     </modules>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>spring-boot-demo-parent</artifactId>

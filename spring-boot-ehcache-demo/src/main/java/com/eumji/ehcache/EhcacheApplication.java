@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
 /**
- * @author Do
- * @package eumji.eumji.ehcache
+ * @author EumJi
+ * @package com.eumji.ehcache
  * @name Application
  * @date 2017/3/30
  * @time 21:21
