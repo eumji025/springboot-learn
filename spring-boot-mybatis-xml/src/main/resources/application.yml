@@ -19,3 +19,9 @@ logging:
   config: classpath:log4j2.xml
   level: debug
   file:
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params=count: countSql
