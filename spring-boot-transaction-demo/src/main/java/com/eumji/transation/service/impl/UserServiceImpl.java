@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
- * @email eumji025@gmail.eumji
+ * @email eumji025@gmail.com
  * @author:EumJi
  * @date: 2017/9/30
  * @time: 13:43

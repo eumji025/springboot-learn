@@ -13,8 +13,9 @@ import org.springframework.stereotype.Component;
 @Component
 public class ScheduledTask {
 
-    @Scheduled(fixedRate = 1000)
-    public void task(){
+    @Scheduled(fixedDelay = 1000)
+    public void task() throws InterruptedException {
         System.out.println("curren Time: "+System.currentTimeMillis());
+        Thread.sleep(3000);
     }
 }

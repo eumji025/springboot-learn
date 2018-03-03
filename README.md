@@ -67,7 +67,7 @@ thymeleaf模板使用demo
 使用ssl方式做网站https
 
 ## actuator
-使用actuator做监控
+使用actuator做监控 http://blog.csdn.net/jsu_9207/article/details/78633625
 
 
 
