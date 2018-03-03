@@ -4,42 +4,37 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
-
-    <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.5.2.RELEASE</version>
-        <relativePath />
-    </parent>
     <groupId>com.eumji.springboot</groupId>
     <artifactId>spring-boot-demo-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.1.BUILD-SNAPSHOT</version>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
     </properties>
 
-
     <modules>
-    <module>spring-boot-first-demo</module>
-    <module>spring-boot-custom-port</module>
-    <module>spring-boot-properties-demo</module>
-    <module>spring-boot-exception-demo</module>
-    <module>spring-boot-jdbc-demo</module>
-    <module>spring-boot-mybatis-annotation</module>
-    <module>spring-boot-indexPage-demo</module>
-    <module>spring-boot-thymeleaf-demo</module>
-    <module>spring-boot-swagger-demo</module>
-    <module>spring-boot-mybatis-xml</module>
-    <module>spring-boot-log4j2-demo</module>
-    <module>spring-boot-transaction-demo</module>
-    <module>spring-boot-scheduled-demo</module>
-    <module>spring-boot-async-demo</module>
-    <module>spring-boot-aspect-demo</module>
-    <module>spring-boot-security-demo</module>
-    <module>spring-boot-ehcache-demo</module>
-    <module>spring-boot-ssl-server</module>
-    <module>spring-boot-actuator-demo</module>
-</modules>
+        <module>validation-demo</module>
+    </modules>
 </project>
