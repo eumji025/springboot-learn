@@ -1,15 +1,10 @@
 package com.eumji.weblux;
 
-import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.reactive.function.server.ServerRequest;
-import org.springframework.web.reactive.function.server.ServerResponse;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
-import reactor.core.publisher.MonoSink;
-
-import java.util.function.Consumer;
 
 /**
  * @email eumji025@gmail.com
@@ -21,10 +16,15 @@ import java.util.function.Consumer;
 public class WebFluxController {
 
 
-    @GetMapping("/demo/{name}")
-    Mono<String> hello(@PathVariable String name){
+    @GetMapping("/mono/{name}")
+    private Mono<String> hello(@PathVariable String name){
         //return ServerResponse.ok().body(request.bodyToMono(String.class),String.class);
         //return "hello "+ name;
         return Mono.create(stringMonoSink -> stringMonoSink.success(name));
+    }
+
+    @GetMapping("/flux/{name}")
+     public Flux<String> hello2(@PathVariable String name){
+        return Flux.create(stringFluxSink -> stringFluxSink.next("----").next(name).next("你好").complete());
     }
 }
