@@ -1,6 +1,0 @@
-server:
-  port: 443
-  ssl:
-    key-store: classpath:ssl-server.jks
-    key-password: eumji025
-    key-alias: eumji025_localhost_sslserver
