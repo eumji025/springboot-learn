@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 /**
- * @description: write some thing of this file
+ * @description: kafka定时任务 - 推送消息
  * @email eumji025@gmail.com
  * @author: EumJi
  * @date: 2018-06-18-6-27
@@ -26,6 +26,7 @@ public class kafkaSchedule {
     public void sendKafkaMessage(){
         String message = "hello kafka, now is "+DateTimeFormatter.ofPattern("yyyy-MM-dd hh:mm:ss").format(LocalDateTime.now());
         ListenableFuture<SendResult<String, String>> future = kafkaTemplate.send("mydemo", message);
+        //监听回调
         future.addCallback(new ListenableFutureCallback<SendResult<String, String>>() {
             @Override
             public void onFailure(Throwable ex) {

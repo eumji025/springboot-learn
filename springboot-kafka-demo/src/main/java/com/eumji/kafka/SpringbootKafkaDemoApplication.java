@@ -12,6 +12,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 public class SpringbootKafkaDemoApplication {
 
+    /**
+     * kafka 消费者 新版kafka必须加id
+     * @param consumerRecord
+     */
     @KafkaListener(id = "demoId",topics = "mydemo")
     public void consumeMessage(ConsumerRecord<String,String> consumerRecord){
         System.out.println("consume the message:" +consumerRecord.value());
