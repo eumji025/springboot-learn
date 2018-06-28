@@ -22,5 +22,6 @@
     <modules>
         <module>validation-demo</module>
         <module>webflux-demo</module>
+        <module>cxf-demo</module>
     </modules>
 </project>
