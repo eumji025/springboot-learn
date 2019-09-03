@@ -8,3 +8,10 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:mybatis-config.xml
+logging:
+  level: debug
+
+
+

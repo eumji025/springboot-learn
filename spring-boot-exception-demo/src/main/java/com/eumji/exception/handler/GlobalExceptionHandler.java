@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author Do
+ * @author eumji
  * @package eumji.eumji.exception.config
  * @name GlobalExceptionHandler
  * @date 2017/3/27
@@ -27,7 +27,7 @@ public class GlobalExceptionHandler {
      * @throws Exception
      */
     @ExceptionHandler(value = Exception.class)
-    public ModelAndView defaultErrorHandler(HttpServletRequest request,Exception e) throws Exception{
+    public ModelAndView defaultErrorHandler(HttpServletRequest request,Exception e){
         ModelAndView view = new ModelAndView();
         view.addObject("exception",e);
         view.addObject("url",request.getRequestURL());
@@ -44,7 +44,7 @@ public class GlobalExceptionHandler {
      */
     @ExceptionHandler(value = CustomException.class)
     @ResponseBody
-    public ResultMessage<String> jsonErrorHandler(HttpServletRequest request, CustomException e) throws Exception{
+    public ResultMessage<String> jsonErrorHandler(HttpServletRequest request, CustomException e){
         ResultMessage<String> message = new ResultMessage<String>();
         message.setUrl(request.getRequestURL().toString());
         message.setMessage(e.toString());
@@ -53,6 +53,16 @@ public class GlobalExceptionHandler {
         return message;
     }
 
+    @ExceptionHandler(value = Throwable.class)
+    @ResponseBody
+    public ResultMessage<String> baseErrorHandler(HttpServletRequest request, CustomException e){
+        ResultMessage<String> message = new ResultMessage<String>();
+        message.setUrl(request.getRequestURL().toString());
+        message.setMessage(e.toString());
+        message.setData("no data");
+        message.setMessageCode(ResultMessage.ERRORCODE);
+        return message;
+    }
 
 
 }

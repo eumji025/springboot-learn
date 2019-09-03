@@ -17,6 +17,11 @@ mybatis:
 #加载log4j2
 logging:
   config: classpath:log4j2.xml
-  #level: debug
+  level: debug
   file:
 
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params=count: countSql

@@ -16,5 +16,9 @@
     <update id="updateUser">
         update user2 set name = #{name},sex=#{sex} where id = #{id}
     </update>
+
+    <select id="getUserList" resultType="com.eumji.mybatisxml.vo.UserInfo">
+        SELECT * from user2
+    </select>
 </mapper>
 

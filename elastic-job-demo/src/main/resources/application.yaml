@@ -1,0 +1,12 @@
+
+elastic:
+  serviceList: 127.0.0.1:2181
+  namespace: eumji-job
+endpoints:
+  shutdown:
+    enabled: true
+management:
+  security:
+    enabled: false
+server:
+  port: 8080

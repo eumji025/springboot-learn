@@ -27,7 +27,7 @@ public class Swagger2Config {
     @Bean
     public Docket createRestApi(){
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(apiInfo()).select()
-                .apis(RequestHandlerSelectors.basePackage("eumji.eumji.swagger.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.eumji.swagger.controller"))
                 .paths(PathSelectors.any()).build();
     }
 
@@ -35,7 +35,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder().title("使用swagger2构建RESTful API")
                 .description("更多内容请参见swagger官网:http://swagger.io/")
                 .termsOfServiceUrl("http://swagger.io/")
-                .version("1.0").contact(new Contact("eumji","http://jsu.eumji025.top","eumji025@gmail.eumji")).build();
+                .version("1.0").contact(new Contact("eumji","http://www.eumji025.com","eumji025@gmail.com")).build();
     }
 
 

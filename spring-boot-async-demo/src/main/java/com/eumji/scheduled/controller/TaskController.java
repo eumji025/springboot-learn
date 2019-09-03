@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.concurrent.Future;
 
 /**
- * @email eumji025@gmail.eumji
+ * @email eumji025@gmail.com
  * @author:EumJi
  * @date: 2017/11/25
  * @time: 20:22

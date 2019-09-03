@@ -35,3 +35,7 @@ mybatis:
 4.在mapper添加@mapper注解
 
 测试方法在test包下 可以写个controller
+
+
+5.添加了自己基于pagehelper写的分页工具类,可以注释掉相关的代码或者回退版本
+其实就是减少了一些中间代码.
