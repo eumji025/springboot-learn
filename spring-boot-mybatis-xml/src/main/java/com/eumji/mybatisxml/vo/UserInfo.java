@@ -5,8 +5,8 @@ import org.apache.ibatis.type.Alias;
 /**
  * eumji.eumji.mybatisxml.vo.UserInfo.java
  *
- * @desc 不积跬步无以至千里, 不积小流无以至千里
- * @author:EumJi
+ * @desc
+ *
  * @year: 2017
  * @month: 04
  * @day: 02
